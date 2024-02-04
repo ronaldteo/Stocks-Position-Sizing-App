@@ -4,6 +4,8 @@
 
 The "Stocks Position Sizing Calculator" is a React application designed to aid traders in making informed decisions regarding the number of shares to long or short based on their individual risk tolerance and trade parameters. By inputting their stock portfolio account balance, the percentage of their portfolio they are willing to risk, the current stock price, and their desired stop loss, users can efficiently calculate the optimal number of shares to engage with for a trade. The application provides clear advice on whether to proceed with the trade or abstain if the potential loss exceeds the user's risk threshold.
 
+This is a mini project after self-learning JavaScript and basic React framework.
+
 ## Features
 
 - User choice to plan for a long or short position before entering trade details.
