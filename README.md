@@ -30,6 +30,14 @@ You may also see any lint errors in the console.
 5. Specify the stop loss price.
 6. Click the "Calculate" button to receive advice on the number of shares to long/short. If the potential loss exceeds your specified risk amount, the application will advise against entering the trade.
 
+## Sample Run
+
+![Long Calculation Sample](../position-sizing-app/testcase%20images/Screenshot%202024-02-05%20000630.png)
+![Not Recommended Long Calculation Sample](../position-sizing-app/testcase%20images/Screenshot%202024-02-05%20000723.png)
+![Short Calculation Sample](../position-sizing-app/testcase%20images/Screenshot%202024-02-05%20000742.png)
+![Not Recommended Short Calculation Sample](../position-sizing-app/testcase%20images/Screenshot%202024-02-05%20000757.png)
+![Field Error Checking](../position-sizing-app/testcase%20images/Screenshot%202024-02-05%20000856.png)
+
 ## Future Plans
 
 1. **Real-time Stock Pricing Integration:** I plan to incorporate a real-time stock pricing API, allowing users to input a stock ticker symbol and automatically retrieve the latest stock price for their calculations. This feature aims to streamline the process by reducing the need for manual price entry, ensuring that users have access to the most up-to-date information for their trades.
