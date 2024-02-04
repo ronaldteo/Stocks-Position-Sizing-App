@@ -32,9 +32,10 @@ You may also see any lint errors in the console.
 
 ## Sample Run
 
-<figure>
+<figure align="center">
+  <figcaption><strong>Long Calculation Sample</strong></figcaption>
   <img src="testcase_images/Screenshot%202024-02-05%20000630.png" alt="Alt text" width="50%" height="auto"/>
-  <figcaption>Long Calculation Sample</figcaption>
+  
 </figure>
 
 ![Not Recommended Long Calculation Sample](testcase_images/Screenshot%202024-02-05%20000723.png)
