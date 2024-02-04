@@ -11,8 +11,6 @@ The "Stocks Position Sizing Calculator" is a React application designed to aid t
 - Analysis of the trade's viability by comparing the risked amount of capital against the potential loss defined by the stop loss.
 - User-friendly interface for seamless interaction with the application.
 
-The application will now be accessible at `http://localhost:3000`.
-
 ## How to Use
 
 ### `npm start`
@@ -29,6 +27,8 @@ You may also see any lint errors in the console.
 4. Key in the current stock price for your trade.
 5. Specify the stop loss price.
 6. Click the "Calculate" button to receive advice on the number of shares to long/short. If the potential loss exceeds your specified risk amount, the application will advise against entering the trade.
+7. Previous input values are preserved even when you switch from long to short tab or vice versa.
+8. Click the "Reset" button to empty all the fields in current tab.
 
 ## Sample Run
 
@@ -56,11 +56,6 @@ You may also see any lint errors in the console.
     <figcaption><strong>Field Error Checking</strong></figcaption>
     <img src="testcase_images/Screenshot%202024-02-05%20000856.png" alt="Alt text" width="50%" height="auto"/>
 </figure>
-
-<!-- ![Not Recommended Long Calculation Sample](testcase_images/Screenshot%202024-02-05%20000723.png)
-![Short Calculation Sample](testcase_images/Screenshot%202024-02-05%20000742.png)
-![Not Recommended Short Calculation Sample](testcase_images/Screenshot%202024-02-05%20000757.png)
-![Field Error Checking](testcase_images/Screenshot%202024-02-05%20000856.png) -->
 
 ## Future Plans
 
