@@ -33,16 +33,34 @@ You may also see any lint errors in the console.
 ## Sample Run
 
 <figure>
-    <p align="center">
-        <figcaption><strong>Long Calculation Sample</strong></figcaption>
-        <img src="testcase_images/Screenshot%202024-02-05%20000630.png" alt="Alt text" width="50%" height="auto"/>
-    </p>
+    <figcaption><strong>Long Calculation Sample</strong></figcaption>
+    <img src="testcase_images/Screenshot%202024-02-05%20000630.png" alt="Alt text" width="50%" height="auto"/>
 </figure>
 
-![Not Recommended Long Calculation Sample](testcase_images/Screenshot%202024-02-05%20000723.png)
+<figure>
+    <figcaption><strong>Not Recommended Long Calculation Sample</strong></figcaption>
+    <img src="testcase_images/Screenshot%202024-02-05%20000723.png" alt="Alt text" width="50%" height="auto"/>
+</figure>
+
+<figure>
+    <figcaption><strong>Short Calculation Sample</strong></figcaption>
+    <img src="testcase_images/Screenshot%202024-02-05%20000742.png" alt="Alt text" width="50%" height="auto"/>
+</figure>
+
+<figure>
+    <figcaption><strong>Not Recommended Short Calculation Sample</strong></figcaption>
+    <img src="testcase_images/Screenshot%202024-02-05%20000757.png" alt="Alt text" width="50%" height="auto"/>
+</figure>
+
+<figure>
+    <figcaption><strong>Field Error Checking</strong></figcaption>
+    <img src="testcase_images/Screenshot%202024-02-05%20000856.png" alt="Alt text" width="50%" height="auto"/>
+</figure>
+
+<!-- ![Not Recommended Long Calculation Sample](testcase_images/Screenshot%202024-02-05%20000723.png)
 ![Short Calculation Sample](testcase_images/Screenshot%202024-02-05%20000742.png)
 ![Not Recommended Short Calculation Sample](testcase_images/Screenshot%202024-02-05%20000757.png)
-![Field Error Checking](testcase_images/Screenshot%202024-02-05%20000856.png)
+![Field Error Checking](testcase_images/Screenshot%202024-02-05%20000856.png) -->
 
 ## Future Plans
 
