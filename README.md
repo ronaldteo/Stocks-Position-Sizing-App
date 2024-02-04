@@ -32,11 +32,11 @@ You may also see any lint errors in the console.
 
 ## Sample Run
 
-![Long Calculation Sample](../position-sizing-app/testcase images/Screenshot 2024-02-05 000630.png)
-![Not Recommended Long Calculation Sample](../position-sizing-app/testcase images/Screenshot 2024-02-05 000723.png)
-![Short Calculation Sample](../position-sizing-app/testcase images/Screenshot 2024-02-05 000742.png)
-![Not Recommended Short Calculation Sample](../position-sizing-app/testcase images/Screenshot 2024-02-05 000757.png)
-![Field Error Checking](../position-sizing-app/testcase images/Screenshot 2024-02-05 000856.png)
+![Long Calculation Sample](testcase%20images/Screenshot%202024-02-05%20000630.png)
+![Not Recommended Long Calculation Sample](testcase%20images/Screenshot%202024-02-05%20000723.png)
+![Short Calculation Sample](testcase%20images/Screenshot%202024-02-05%20000742.png)
+![Not Recommended Short Calculation Sample](testcase%20images/Screenshot%202024-02-05%20000757.png)
+![Field Error Checking](testcase%20images/Screenshot%202024-02-05%20000856.png)
 
 ## Future Plans
 
