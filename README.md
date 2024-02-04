@@ -1,10 +1,19 @@
-# Getting Started with Create React App
+# Stocks Position Sizing Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+The "Stocks Position Sizing Calculator" is a React application designed to aid traders in making informed decisions regarding the number of shares to long or short based on their individual risk tolerance and trade parameters. By inputting their stock portfolio account balance, the percentage of their portfolio they are willing to risk, the current stock price, and their desired stop loss, users can efficiently calculate the optimal number of shares to engage with for a trade. The application provides clear advice on whether to proceed with the trade or abstain if the potential loss exceeds the user's risk threshold.
 
-In the project directory, you can run:
+## Features
+
+- User choice to plan for a long or short position before entering trade details.
+- Calculation of the number of shares to long or short based on user-defined risk parameters and trade setup.
+- Analysis of the trade's viability by comparing the risked amount of capital against the potential loss defined by the stop loss.
+- User-friendly interface for seamless interaction with the application.
+
+The application will now be accessible at `http://localhost:3000`.
+
+## How to Use
 
 ### `npm start`
 
@@ -14,57 +23,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+1. Upon launching the application, select your desired trade direction by choosing to long or short.
+2. Enter your stock portfolio account balance.
+3. Input the percentage (%) of your portfolio you wish to risk.
+4. Key in the current stock price for your trade.
+5. Specify the stop loss price.
+6. Click the "Calculate" button to receive advice on the number of shares to long/short. If the potential loss exceeds your specified risk amount, the application will advise against entering the trade.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Plans
 
-### `npm run build`
+1. **Real-time Stock Pricing Integration:** I plan to incorporate a real-time stock pricing API, allowing users to input a stock ticker symbol and automatically retrieve the latest stock price for their calculations. This feature aims to streamline the process by reducing the need for manual price entry, ensuring that users have access to the most up-to-date information for their trades.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Step-by-Step Usage Guide:** This guide will be available directly within the web application, offering clear instructions and tips on how to effectively use each feature of the calculator.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. **UI Enhancements:** Create a more engaging and seamless experience for users, with an emphasis on simplicity and ease of use.
